@@ -1,0 +1,18 @@
+{
+    "name": "add Url",
+    "version": "1.0",
+    "description": "切换 url 参数",
+    "permissions": [
+      "storage",
+      "tabs",
+      "activeTab",
+      "http://*/*",
+      "https://*/*"
+    ],
+    "browser_action": {
+      "default_icon": "images/icon.png",
+      "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+  }
+  
